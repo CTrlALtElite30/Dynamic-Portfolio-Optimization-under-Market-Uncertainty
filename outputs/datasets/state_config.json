@@ -1,0 +1,23 @@
+{
+  "price_col": "Adj Close**",
+  "feature_order": [
+    "z_logret",
+    "z_vol",
+    "rsi01",
+    "sma_ratio",
+    "ema_ratio",
+    "atr_ratio"
+  ],
+  "split": {
+    "n": 1225,
+    "n_train": 857,
+    "n_val": 183,
+    "n_test": 185
+  },
+  "scaler": {
+    "mu_logret": 0.00044274234082823286,
+    "sd_logret": 0.01456070336949345,
+    "mu_vol": 0.010911528090384464,
+    "sd_vol": 0.009740777596138759
+  }
+}
